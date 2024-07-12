@@ -10,8 +10,15 @@
   </head>
 
   <body>
-    <header>
-      <nav></nav>
+    <header id="nav-header" class="nav-section">
+      <nav class="nav-content container-xl">
+        <img src="/assets/images/ifza-logo.png" width="430" height="137" alt="">
+
+        <button>
+          <i class="fa-solid fa-phone"></i>
+          +971 800 4392
+        </button>
+      </nav>
     </header>
     <main>
       <section>
@@ -19,7 +26,7 @@
             <figure>
               <picture>
                 <source media="(min-width: 769px)" srcset="/assets/images/ifza-bg-header.jpg" />
-                <source media="(min-width: 0px)" srcset="/assets/images/ifza-bg-header.jpg" />
+                <source media="(min-width: 0px)" srcset="/assets/images/ifza-bg-header-mob.jpg" />
                 <img width="1920" height="840" src="/assets/images/ifza-bg-header.jpg" alt="image" data-done="Loaded" />
               </picture>
             </figure>
@@ -35,28 +42,28 @@
               </div>
 
               <div class="hero-form">
-                <div class="hero-form-desc">
-                  <h3>BOOK AN APPOINTMENT</h3>
-                  <p>Get in touch with an IFZA representative to understand your options and the benefits you receive with IFZA.</p>
-                </div>
-                <form id="hero-form">
-                  <div class="form-group">
-                      <input type="text" placeholder="First name" required>
-                      <input type="text" placeholder="Last name" required>
+                  <div class="hero-form-desc">
+                    <h3>BOOK AN APPOINTMENT</h3>
+                    <p>Get in touch with an IFZA representative to understand your options and the benefits you receive with IFZA.</p>
                   </div>
-                  <input type="email" placeholder="Email address" required>
-                  <div class="form-group">
-                    <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="preferred-date" placeholder="Preferred date" required>
-                    <input type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="preferred-time" placeholder="Preferred time" required  step="3600">
-                  </div>
-                  <input type="text" placeholder="What's the nature of your business?" required>
-                  <textarea placeholder="Message" required></textarea>
-
-                  <button type="submit" class="btn-link">SUBMIT<span class="arrow-img"></span></button>
-
-
-                  <span id="time-error" class="error-message"></span>
-              </form>
+                  <form id="hero-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="First name" required>
+                        <input type="text" placeholder="Last name" required>
+                    </div>
+                    <input type="email" placeholder="Email address" required>
+                    <div class="form-group">
+                      <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="preferred-date" placeholder="Preferred date" required>
+                      <input type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="preferred-time" placeholder="Preferred time" required  step="3600">
+                    </div>
+                    <input type="text" placeholder="What's the nature of your business?" required>
+                    <textarea placeholder="Message" required></textarea>
+  
+                    <button type="submit" class="btn-link">SUBMIT<span class="arrow-img"></span></button>
+  
+  
+                    <span id="time-error" class="error-message"></span>
+                  </form>
               </div>
             </div>
           </div>
@@ -114,7 +121,13 @@
       <section>
         <div class="benefits-section">
           <div class="benefits-content container-2xl">
-            <img src="/assets/images/ifza-formation-benefits.jpg" alt="" />
+            <figure>
+              <picture>
+                <source media="(min-width: 769px)" srcset="/assets/images/ifza-formation-benefits.jpg" />
+                <source media="(min-width: 0px)" srcset="/assets/images/ifza-formation-benefits.jpg" />
+                <img width="1920" height="auto" src="/assets/images/ifza-formation-benefits.jpg" alt="image" data-done="Loaded" />
+              </picture>
+            </figure>
             <div class="benefits-text">
               <h3>FREEZONE COMPANY FORMATION BENEFITS</h3>
               <ul class="listing-with-arrow">
@@ -256,8 +269,8 @@
         <div class="cta-section">
           <figure>
             <picture>
-              <source srcset="/assets/images/ifza-cta-bg.jpg" />
-              <source srcset="/assets/images/ifza-cta-bg.jpg" />
+              <source media="(min-width: 769px)" srcset="/assets/images/ifza-cta-bg.jpg" />
+              <source media="(min-width: 0px)" srcset="/assets/images/ifza-cta-bg-mob.jpg" />
               <img width="1920" height="250" src="/assets/images/ifza-cta-bg.jpg" alt="image" data-done="Loaded" />
             </picture>
           </figure>
@@ -265,7 +278,7 @@
           <div class="cta-sec-outer container-lg">
             <div class="cta-sec-inner">
               <div class="cta-content">
-                <h3 class="h2">Need more information?</h3>
+                <h3 >Need more information?</h3>
                 <p>Contact us for all your Company Formation queries</p>
               </div>
               <a href="#" class="btn-link" target=""> Contact us now <span class="arrow-img"></span> </a>

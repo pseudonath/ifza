@@ -1,13 +1,5 @@
 @font-face {
   font-family: "Wotfard";
-  src: url("/assets/fonts/wotfard/Wotfard-LightItalic.woff2") format("woff2"), url("/assets/fonts/wotfard/Wotfard-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Wotfard";
   src: url("/assets/fonts/wotfard/Wotfard-Light.woff2") format("woff2"), url("/assets/fonts/wotfard/Wotfard-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -19,14 +11,6 @@
   src: url("/assets/fonts/wotfard/Wotfard-ExtraLight.woff2") format("woff2"), url("/assets/fonts/wotfard/Wotfard-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Wotfard";
-  src: url("/assets/fonts/wotfard/Wotfard-ExtraLightItalic.woff2") format("woff2"), url("/assets/fonts/wotfard/Wotfard-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
   font-display: swap;
 }
 
