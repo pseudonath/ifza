@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
   if (prevScroll > currentScroll) {
     navHeader.style.top = "0";
   } else {
-    navHeader.style.top = "-50px";
+    navHeader.style.top = "-90px";
   }
 
   prevScroll = currentScroll;

@@ -306,7 +306,9 @@ input[type="time"]::-webkit-clear-button {
     width: 100%;
     max-height: 840px !important;
   }
+}
 
+@media screen and (min-width: 1920px) {
   .featured-section {
     padding: 3% 15px !important;
   }
@@ -621,7 +623,7 @@ input[type="time"]::-webkit-clear-button {
   }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
   .process-section {
     padding: 3% 15px !important;
   }
@@ -707,7 +709,7 @@ input[type="time"]::-webkit-clear-button {
   margin-top: 40px;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1920px) {
   .benefits-section {
     padding: 3% 15px !important;
   }
